@@ -1,13 +1,9 @@
 {
-  "homepage": "https://bijay1088.github.io/Gandaki-Studio",
   "name": "gandaki-studio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
